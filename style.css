@@ -1,0 +1,55 @@
+html {
+  height: 100%;
+  width: 100%;
+  font: Courier New
+}
+
+nav {
+  background-color: #205566;
+  color: #fff;
+  padding: 10px;
+  top: 0;
+  width: 100%;
+}
+.navbar img {
+  float: left; /* Float the image to the left */
+}
+
+nav ol{
+  display: block;
+}
+
+nav li{
+  display: inline;
+  padding: 10px 20px;
+  color: white
+}
+
+nav li:hover {
+  background-color: #fffaf1;
+  color: #205566
+}
+nav li.active {
+  background-color: #b9c5ba;
+  color: white;
+}
+
+AboutMe {
+  background-color: #fffaf1;
+  color: #595959
+}
+
+Spotipy {
+  background-color: #bcaea4;
+  color: #595959
+}
+
+Music {
+  background-color: #b9c5ba;
+  color: #595959
+}
+
+Game {
+  background-color: #fffaf1;
+  color: #595959
+}
